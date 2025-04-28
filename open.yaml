@@ -1,0 +1,34 @@
+openapi: 3.1.0
+info:
+  title: Dream Interpretation API
+  description: Provides Freudian interpretations of dream symbols for Sigmund GPT.
+  version: 1.0.0
+servers:
+  - url: https://680f6e7a67c5abddd1954a44.mockapi.io/api/sigmund/
+    description: Dream analysis server (replace with your real URL)
+paths:
+  /interpret:
+    post:
+      operationId: interpretDreamSymbol
+      summary: Interpret a dream symbol using Freudian theory.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                symbol:
+                  type: string
+                  description: The symbol to analyze (e.g., "snake", "falling", "mirror").
+      responses:
+        '200':
+          description: Successful interpretation.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  interpretation:
+                    type: string
+                    description: The Freudian interpretation of the dream symbol.
