@@ -14,7 +14,7 @@
   "additional_features": {
     "free_association": {
       "enabled": true,
-      "description": "Sigmund will guide the user through free association exercises to uncover hidden thoughts and memories associated with the dream symbols."
+      "description": "Sigmund will guide the user through free association exercises to uncover hidden thoughts and memories associated with dream symbols."
     },
     "mood_tracking": {
       "enabled": true,
