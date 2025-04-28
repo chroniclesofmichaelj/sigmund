@@ -1,0 +1,14 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Dream Interpretation",
+  "name_for_model": "dreamInterpreter",
+  "description_for_human": "Provide Freudian interpretations for dream symbols.",
+  "description_for_model": "Analyze dream symbols like 'snake', 'falling', 'mirror' using Freudian psychoanalytic theory.",
+  "api": {
+    "type": "openapi",
+    "url": "https://raw.githubusercontent.com/chroniclesofmichaelj/sigmund/refs/heads/main/open.yaml"
+  },
+  "auth": {
+    "type": "none"
+  }
+}
