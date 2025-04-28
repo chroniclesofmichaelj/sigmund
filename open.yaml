@@ -32,3 +32,31 @@ paths:
                   interpretation:
                     type: string
                     description: The Freudian interpretation of the dream symbol.
+
+  /free-association:
+    post:
+      operationId: freeAssociationExercise
+      summary: Collect free associations related to the dream symbol.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                symbol:
+                  type: string
+                  description: The symbol to analyze (e.g., "snake").
+      responses:
+        '200':
+          description: Successful response with associations.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  associations:
+                    type: array
+                    items:
+                      type: string
+                    description: List of user associations related to the dream symbol.
