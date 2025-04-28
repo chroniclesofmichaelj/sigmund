@@ -17,8 +17,8 @@ This repository contains the Custom Actions and OpenAPI specifications that enab
 | `openapi.yaml` | OpenAPI 3.1.0 specification describing Sigmund’s endpoints.            |
 | `ai-plugin.json` | Manifest file used by OpenAI to configure the Custom Action.         |
 | `README.md`    | This documentation file.                                              |
-| `specs/` (optional) | Future expansion: store multiple endpoint specs here.               |
-| `assets/` (optional) | Static files, JSON data, or other resources.                        |
+| `specs/` | Future endpoint specs.               |
+| `assets/`  | Static files, JSON data, other resources.                        |
 
 ## 🚀 Getting Started
 
@@ -29,13 +29,32 @@ To connect Sigmund to a Custom Action:
 
 ## 📄 License
 
-Currently, no license is specified.  
-(You can add an MIT License or other license if you want to open source this project.)
+MIT License
 
-## ✨ Future Enhancements
-- Add a "mood tracking" endpoint.
-- Expand dream symbol database.
-- Create defense mechanism quizzes.
-- Integrate session management with user profiles.
+Copyright (c) 2025 chroniclesofmichaelj
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## ✨ Future Enhancements (to come)
+- "Mood tracking" endpoint.
+- Expanded dream symbol database.
+- Defense mechanism quizzes.
+- Integrated session management with user profiles.
 
 Built with inspiration from Sigmund Freud's pioneering work in psychoanalysis. 🧠
