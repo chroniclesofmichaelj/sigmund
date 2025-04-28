@@ -20,9 +20,9 @@ paths:
               properties:
                 symbol:
                   type: string
-                  description: The symbol to analyze (e.g., "snake", "falling", "mirror").
+                  description: The symbol to analyze (e.g., "snake", "falling", "mirror")
       responses:
-        '200':
+        "200":
           description: Successful interpretation.
           content:
             application/json:
@@ -31,8 +31,7 @@ paths:
                 properties:
                   interpretation:
                     type: string
-                    description: The Freudian interpretation of the dream symbol.
-
+                    description: The Freudian interpretation of the dream symbol
   /free-association:
     post:
       operationId: freeAssociationExercise
@@ -46,9 +45,9 @@ paths:
               properties:
                 symbol:
                   type: string
-                  description: The symbol to analyze (e.g., "snake").
+                  description: The symbol to analyze (e.g., "snake")
       responses:
-        '200':
+        "200":
           description: Successful response with associations.
           content:
             application/json:
@@ -59,4 +58,4 @@ paths:
                     type: array
                     items:
                       type: string
-                    description: List of user associations related to the dream symbol.
+                    description: List of user associations related to the dream symbol
