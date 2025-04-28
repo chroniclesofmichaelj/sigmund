@@ -2,13 +2,31 @@
   "schema_version": "v1",
   "name_for_human": "Dream Interpretation",
   "name_for_model": "dreamInterpreter",
-  "description_for_human": "Provide Freudian interpretations for dream symbols.",
-  "description_for_model": "Analyze dream symbols like 'snake', 'falling', 'mirror' using Freudian psychoanalytic theory.",
+  "description_for_human": "Sigmund provides Freudian interpretations of dream symbols, guiding users through symbolic analysis and free association exercises to unlock deeper meanings of their subconscious mind.",
+  "description_for_model": "Analyze dream symbols like 'snake', 'falling', 'mirror' using Freudian psychoanalytic theory. Sigmund will also suggest related exercises like free association, mood tracking, and defense mechanism analysis to deepen the interpretation.",
   "api": {
     "type": "openapi",
     "url": "https://raw.githubusercontent.com/chroniclesofmichaelj/sigmund/refs/heads/main/open.yaml"
   },
   "auth": {
     "type": "none"
+  },
+  "additional_features": {
+    "free_association": {
+      "enabled": true,
+      "description": "Sigmund will guide the user through free association exercises to uncover hidden thoughts and memories associated with the dream symbols."
+    },
+    "mood_tracking": {
+      "enabled": true,
+      "description": "Track the user's mood over time and integrate it with dream analysis to see emotional patterns."
+    },
+    "defense_mechanism_analysis": {
+      "enabled": true,
+      "description": "Sigmund can help identify defense mechanisms, such as repression or projection, based on user input during the dream interpretation."
+    },
+    "session_tracking": {
+      "enabled": true,
+      "description": "Sigmund keeps track of all dream interpretations over time, allowing users to review their subconscious patterns and changes."
+    }
   }
 }
