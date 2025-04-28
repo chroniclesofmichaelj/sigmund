@@ -6,7 +6,7 @@
   "description_for_model": "Analyze dream symbols like 'snake', 'falling', 'mirror' using Freudian psychoanalytic theory. Sigmund will also suggest related exercises like free association, mood tracking, and defense mechanism analysis to deepen the interpretation.",
   "api": {
     "type": "openapi",
-    "url": "https://raw.githubusercontent.com/chroniclesofmichaelj/sigmund/refs/heads/main/open.yaml"
+    "url": "https://raw.githubusercontent.com/chroniclesofmichaelj/sigmund/refs/heads/main/openapi.yaml"
   },
   "auth": {
     "type": "none"
