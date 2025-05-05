@@ -1,60 +1,37 @@
-# Sigmund: A Freudian Therapy GPT
+###Sigmund: A Freudian Therapy GPT
 
-Sigmund is a GPT customized to practice Freudian psychoanalytic therapy, specializing in dream interpretation, free association exercises, and analysis of defense mechanisms.  
-This repository contains the Custom Actions and OpenAPI specifications that enable Sigmund to connect to external tools and APIs for enhanced therapy sessions.
+Sigmund is a GPT-powered virtual therapist inspired by Freudian psychoanalysis. It specializes in dream interpretation, free association exercises, and analyzing defense mechanisms to provide users with unique psychoanalytic insights.
 
-## 📚 Project Overview
+##📚 Project Overview
 
-- **Custom Actions**: Extend Sigmund’s capabilities beyond conversation with external API integrations.
-- **Dream Analysis**: Interpret dream symbols based on Freudian psychoanalysis.
-- **Free Association**: Offer prompts that stimulate unconscious thought patterns.
-- **Defense Mechanisms**: Analyze user input for common defense mechanisms like repression, projection, or denial.
+Custom Actions: Extend Sigmund’s conversational capabilities with external API integrations.
+Dream Analysis: Decode dream symbols using Freudian psychoanalysis principles.
+Free Association: Generate prompts to explore unconscious thought patterns.
+Defense Mechanisms: Identify psychological defense mechanisms such as repression, projection, or denial based on user input.
 
-## 🛠️ Repository Structure
+##🛠️ Key Components
 
-| File/Folder    | Description                                                           |
-|----------------|-----------------------------------------------------------------------|
-| `openapi.yaml` | OpenAPI 3.1.0 specification describing Sigmund’s endpoints.            |
-| `ai-plugin.json` | Manifest file used by OpenAI to configure the Custom Action.         |
-| `README.md`    | This documentation file.                                              |
-| `specs/` | Future endpoint specs.               |
-| `assets/`  | Static files, JSON data, other resources.                        |
+File/Folder	Description
+openapi.yaml	OpenAPI 3.1.0 specification defining Sigmund’s API endpoints.
+ai-plugin.json	Manifest file for configuring the Custom Actions with OpenAI.
+README.md	Documentation for the repository.
+specs/	Placeholder for future endpoint specifications.
+assets/	Static files, JSON data, and other supporting resources.
 
-## 🚀 Getting Started
+##🚀 Getting Started
 
-To connect Sigmund to a Custom Action:
-1. Host the `openapi.yaml` and `ai-plugin.json` publicly (using GitHub raw links).
-2. In the OpenAI Custom GPT Actions interface, upload or link to your manifest.
-3. Ensure your APIs (static or dynamic) are reachable by the GPT model.
+To integrate Sigmund with OpenAI Custom Actions:
 
-## 📄 License
+Host the openapi.yaml and ai-plugin.json files publicly (e.g., using GitHub raw links).
+In the OpenAI Custom GPT Actions interface, upload or link to your manifest file.
+Ensure all APIs (static or dynamic) are reachable by the GPT model.
 
-MIT License
+##✨ Future Enhancements
 
-Copyright (c) 2025 chroniclesofmichaelj
+Add a "Mood Tracking" endpoint for personalized insights.
+Expand the dream symbol database for richer interpretations.
+Introduce quizzes for identifying defense mechanisms.
+Implement session management features, including user profiles.
+📄 License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-## ✨ Future Enhancements (to come)
-- "Mood tracking" endpoint.
-- Expanded dream symbol database.
-- Defense mechanism quizzes.
-- Integrated session management with user profiles.
-
-Built with inspiration from Sigmund Freud's pioneering work in psychoanalysis. 🧠
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code, subject to the terms of the license.
