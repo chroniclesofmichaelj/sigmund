@@ -15,16 +15,17 @@ File/Folder	Description
 openapi.yaml	OpenAPI 3.1.0 specification defining Sigmund’s API endpoints.
 ai-plugin.json	Manifest file for configuring the Custom Actions with OpenAI.
 README.md	Documentation for the repository.
-specs/	Placeholder for future endpoint specifications.
-assets/	Static files, JSON data, and other supporting resources.
+specs/	Additional OpenAPI snippets and endpoint documentation.
+assets/	Example data and other supporting resources.
 
 ## 🚀 Getting Started
 
 To integrate Sigmund with OpenAI Custom Actions:
 
-Host the openapi.yaml and ai-plugin.json files publicly (e.g., using GitHub raw links).
-In the OpenAI Custom GPT Actions interface, upload or link to your manifest file.
-Ensure all APIs (static or dynamic) are reachable by the GPT model.
+- Host the openapi.yaml and ai-plugin.json files publicly (e.g., using GitHub raw links).
+- In the OpenAI Custom GPT Actions interface, upload or link to your manifest file.
+- Ensure all APIs (static or dynamic) are reachable by the GPT model.
+- Explore the `specs/` and `assets/` folders for example endpoints and data.
 
 ## ✨ Future Enhancements
 
