@@ -4,19 +4,31 @@ Sigmund is a GPT-powered virtual therapist inspired by Freudian psychoanalysis. 
 
 ## 📚 Project Overview
 
-*Custom Actions: Extend Sigmund’s conversational capabilities with external API integrations.
-*Dream Analysis: Decode dream symbols using Freudian psychoanalysis principles.
-*Free Association: Generate prompts to explore unconscious thought patterns.
-*Defense Mechanisms: Identify psychological defense mechanisms such as repression, projection, or denial based on user input.
+Custom Actions: Extend Sigmund’s conversational capabilities with external API integrations.
+
+Dream Analysis: Decode dream symbols using Freudian psychoanalysis principles.
+
+Free Association: Generate prompts to explore unconscious thought patterns.
+
+Defense Mechanisms: Identify psychological defense mechanisms such as repression, projection, or denial based on user input.
 
 ## 🛠️ Key Components
 
 File/Folder	Description
-openapi.yaml	OpenAPI 3.1.0 specification defining Sigmund’s API endpoints.
-ai-plugin.json	Manifest file for configuring the Custom Actions with OpenAI.
-README.md	Documentation for the repository.
-specs/	Additional OpenAPI snippets and endpoint documentation.
-assets/	Example data and other supporting resources.
+#openapi.yaml	
+OpenAPI 3.1.0 specification defining Sigmund’s API endpoints.
+
+#ai-plugin.json	
+Manifest file for configuring the Custom Actions with OpenAI.
+
+#README.md	
+Documentation for the repository.
+
+#specs/	
+Additional OpenAPI snippets and endpoint documentation.
+
+#assets/	
+Example data and other supporting resources.
 
 ## 🚀 Getting Started
 
