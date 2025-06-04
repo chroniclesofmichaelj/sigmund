@@ -59,3 +59,28 @@ paths:
                     items:
                       type: string
                     description: List of user associations related to the dream symbol
+  /mood:
+    post:
+      operationId: logMood
+      summary: Record the user's current mood for analysis.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                mood:
+                  type: string
+                  description: The user's self-reported mood.
+      responses:
+        "200":
+          description: Mood logged successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+

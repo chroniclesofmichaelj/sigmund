@@ -1,0 +1,30 @@
+openapi: 3.1.0
+info:
+  title: Mood Tracking API
+  description: Provides endpoints for tracking user mood over time.
+  version: 0.1.0
+paths:
+  /mood:
+    post:
+      summary: Record the user's current mood.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                mood:
+                  type: string
+                  description: User's self-reported mood.
+      responses:
+        "200":
+          description: A confirmation message.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+
